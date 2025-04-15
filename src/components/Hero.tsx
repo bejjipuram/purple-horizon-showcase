@@ -1,4 +1,3 @@
-
 import { motion } from "framer-motion";
 import { ArrowDown } from "lucide-react";
 import { Avatar, AvatarImage, AvatarFallback } from "@/components/ui/avatar";
@@ -13,11 +12,11 @@ const Hero = () => {
           transition={{ duration: 0.8 }}
           className="space-y-6"
         >
-          <Avatar className="mx-auto w-32 h-32 mb-6 border-4 border-purple-200">
+          <Avatar className="mx-auto w-32 h-32 mb-6 border-4 border-[#6E59A5] animate-pulse hover:scale-105 transition-transform duration-300">
             <AvatarImage 
               src="/placeholder.svg" 
               alt="Professional headshot" 
-              className="object-cover"
+              className="object-cover rounded-full"
             />
             <AvatarFallback>JD</AvatarFallback>
           </Avatar>

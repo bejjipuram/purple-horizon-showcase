@@ -3,10 +3,10 @@ import Navbar from "@/components/Navbar";
 import Hero from "@/components/Hero";
 import About from "@/components/About";
 import Portfolio from "@/components/Portfolio";
-import Skills from "@/components/Skills";
 import Resume from "@/components/Resume";
 import Testimonials from "@/components/Testimonials";
 import Contact from "@/components/Contact";
+import ScrollToTop from "@/components/ScrollToTop";
 
 const Index = () => {
   return (
@@ -15,10 +15,10 @@ const Index = () => {
       <Hero />
       <About />
       <Portfolio />
-      <Skills />
       <Resume />
       <Testimonials />
       <Contact />
+      <ScrollToTop />
     </div>
   );
 };
